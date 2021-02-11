@@ -27,6 +27,12 @@ chmod 777 /var/log/aker/aker.log
 chmod a+rx /usr/bin/aker/pyte 
 chmod a+rx /usr/bin/aker/idp 
 chmod a+rx /usr/bin/aker 
+chmod 755 /usr/bin/aker/aker.py 
+chmod 755 /usr/bin/aker/akerctl.py 
+chmod 755 /usr/bin/aker/*.py 
+chmod 755 –R /usr/bin/aker/idp/*.py 
+chmod 755 –R /usr/bin/aker/pyte/*.py 
+chmod 644 /etc/aker/aker.ini 
 mkdir /etc/aker 
 cp /usr/bin/aker/hosts.json /etc/aker/hosts.json 
 chmod a+x /etc/aker/ 
