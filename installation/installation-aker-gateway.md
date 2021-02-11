@@ -5,6 +5,7 @@
 ### 1.) Install dependencies offline 
 user: root
 ```
+cp -r /Source/aker-file /usr/bin/aker
 cd /source 
 yum install python2-redis-2.10.6-1.el7.noarch.rpm 
 yum install python2-wcwidth-0.1.9-1.el7.noarch.rpm 
